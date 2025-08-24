@@ -3,6 +3,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 
+// Agregar Entity Framework
+builder.Services.AddDbContext<ToDoApp.Data.ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -22,4 +26,6 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 
-app.Run();
+// Configurar puerto para Render
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+app.Run($"http://0.0.0.0:{port}");

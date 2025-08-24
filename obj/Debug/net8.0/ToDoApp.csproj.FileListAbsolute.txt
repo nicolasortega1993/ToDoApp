@@ -32,3 +32,4 @@ C:\Users\nicol\Documents\Visual Studio 2022\ToDoApp\ToDoApp\obj\Debug\net8.0\ToD
 C:\Users\nicol\Documents\Visual Studio 2022\ToDoApp\ToDoApp\obj\Debug\net8.0\ref\ToDoApp.dll
 C:\Users\nicol\Documents\Visual Studio 2022\ToDoApp\ToDoApp\obj\Debug\net8.0\ToDoApp.sourcelink.json
 C:\Users\nicol\Documents\Visual Studio 2022\ToDoApp\ToDoApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\nicol\Documents\Visual Studio 2022\ToDoApp\ToDoApp\obj\Debug\net8.0\ToDoApp.csproj.AssemblyReference.cache
